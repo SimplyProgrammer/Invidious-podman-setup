@@ -28,7 +28,8 @@ When it asks for the Invidious git repo, for 90% of you just press enter (unless
 
 The most important part, when it asks for the DNS domain, specified aformentioned `invidious.lan`, `invidious.home.arpa` or whatever you have. But make sure the domain is reachable and working in advance (`nslookup` etc.).
 
-If everything was done properly, now you should have a working LXC/VM with Invidious service and should be able to open it at `https://<your-invidious-domain>/`.
+If everything was done properly, now you should have a working LXC/VM with Invidious service and should be able to open it at `https://<your-invidious-domain>/`.\
+It should automatically start with your VM/LXC, no extra work needed.
 
 # Notice
 This solution was intended for Proxmox VMs and LXC but in theory it should work with any platform that can virtualize Linux with basic networking included.
