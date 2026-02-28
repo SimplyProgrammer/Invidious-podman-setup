@@ -85,7 +85,7 @@ EOF
 fi
 
 # 6) Ensure scripts executable
-chmod 750 start-invidious stop-invidious update-invidious
+chmod 750 start-invidious.sh stop-invidious.sh update-invidious.sh
 
 # 7) Create systemd service
 SERVICE_PATH="/etc/systemd/system/${SERVICE_NAME}.service"
