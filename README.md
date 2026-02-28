@@ -15,6 +15,7 @@ Or in a similar manner, create an unprivileged Debian 12+ based LXC "invidious" 
 Feel free to modify the `compose.yml` file when you know what you are doing and see it asfitting. 
 
 Now you have to make your container have a static IP or configure a static lease on your router.
+
 Further, you will need a DNS domain payed or local to point to this IP of your LXC/VM with Invidious. 
 It would be great if your router would allow/do this by default, something like `invidious.lan` or even better `invidious.home.arpa`. For example, [OpenWrt](https://forum.openwrt.org/t/use-home-arpa-as-default-tld-for-local-network/165056/11) does this by default. For other routers, extra config might be needed.
 If you have your own domain, reversed-proxy etc., setup might differ a bit for you...
